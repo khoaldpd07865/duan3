@@ -1,0 +1,22 @@
+.news-item {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.news-item img {
+    max-height: 60%;
+    object-fit: cover;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+.overlay a {
+    text-decoration: none;
+    color: black;
+}
